@@ -40,6 +40,7 @@ p {
 a {
    text-decoration: none;
    color: var(--hover-color);
+   font-size: 1.2rem;
 }
 
 li a {
@@ -129,6 +130,7 @@ form {
 .info i {
    font-size: 1.5rem;
    padding: 0 1rem;
+   transition: 1.2s;
 }
 
 .info h1,
@@ -187,6 +189,11 @@ input[type="submit"] {
    font-weight: 600;
    letter-spacing: 1.2px;
    background-color: yellowgreen;
+}
+input[type="submit"]:hover {
+   color: black;
+   background-color: yellow;
+   transition: 1.2s;
 }
 
 @media (max-width: 560px) {
